@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katlego Mthethwa | Aspiring Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.03);
+        }
+        .typewriter {
+            overflow: hidden;
+            border-right: .15em solid #4f46e5;
+            white-space: nowrap;
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #4f46e5; }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-indigo-600">Unathi Mthethwa</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-indigo-600 transition">About</a>
+                    <a href="#skills" class="text-gray-700 hover:text-indigo-600 transition">Skills</a>
+                    <a href="#projects" class="text-gray-700 hover:text-indigo-600 transition">Projects</a>
+                    <a href="#contact" class="text-gray-700 hover:text-indigo-600 transition">Contact</a>
+                    <a href="Unathi Katlego Mthethwa Professional CV Resume.pdf"
+                     class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">Download CV</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-indigo-200">Unathi Mthethwa</span></h1>
+                   <div class="typewriter text-2xl md:text-3xl font-semibold mb-6 whitespace-normal break-words">
+                    Computer Science Student &amp; Aspiring Developer</div>
+                    <p class="text-lg mb-8">Final year student passionate about building innovative solutions and eager to contribute to impactful projects in a professional environment.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">Hire Me</a>
+                        <a href="#projects" class="border-2 border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-indigo-600 transition">View Work</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 md:w-80 md:h-80 bg-indigo-100 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                            <img src="Kat.jpeg" alt="Profile" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-5 -right-5 bg-white rounded-full p-4 shadow-lg">
+                            <div class="bg-indigo-600 rounded-full p-3">
+                                <i class="fas fa-code text-white text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h3 class="text-2xl font-semibold mb-4">Who am I?</h3>
+                    <p class="text-gray-600 mb-6">I'm a passionate Information Technology student at Eduvos majoring in Network and Security systems, I am expected to graduate in the year 2027. My academic journey has equipped me with vast technical skills</p>
+                    <p class="text-gray-600 mb-6">Beyond academics, I've worked and had an internship as a marketing assistant where I contributed to AI integration system projects, and I also have a cisco certicate on the introduction to cybersecurity.</p>
+                    <p class="text-gray-600">I'm currently seeking opportunities where I can apply my knowledge, learn from experienced professionals, and grow in the IT sector while making meaningful contributions.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold mb-6">Education & Experience</h3>
+                        <div class="space-y-8">
+                         
+                             <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-graduation-cap text-indigo-600"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Blue Hills College</h4>
+                                    <p class="text-gray-500 text-sm">Completed Highschool with Bachelor's Degree | 2022</p>
+                                    <p class="text-gray-600 mt-2">Subjects: Life Science, Computer Application Technology, Business Studies, Math Lit.</p>
+                                </div>
+                            </div>
+
+                                         <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-graduation-cap text-indigo-600"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Cisco Networking Academy</h4>
+                                    <p class="text-gray-500 text-sm">Introduction to Cybersecurity |2023</p>
+                                    <p class="text-gray-600 mt-2">Threat Detection, Privacy And Data Confidentiality,
+                                         Cyber Best Practices, Cybersecurity, Network Vulnerabilities</p>
+                                </div>
+                            </div>
+                                   
+                                
+                             <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-graduation-cap text-indigo-600"></i>
+                                    </div>
+                                </div>
+                  
+                                <div>
+                                    <h4 class="font-medium">Eduvos</h4>
+                                    <p class="text-gray-500 text-sm">Bachelor of Science in Information Technology (Security and Network Engineering) |2024-2027</p>
+                                    <p class="text-gray-600 mt-2">These are a few of the core modules I have done so far: Computer Network and Security; Linux-based Operating Systems; 
+                                        Cloud-Based Technologies; Advanced Networking; Network Security.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-briefcase text-indigo-600"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Gresham Records</h4>
+                                    <p class="text-gray-500 text-sm">Marketing Assisting Intern | March 2023 - June 2023</p>
+                                    <p class="text-gray-600 mt-2">Conducted market research to identify key customer segments, trends, and competitor strategies.
+                                         Developed product ideas and managed relationships with influencers, clients, vendors, and partners. Analyzed website and
+                                        social media data to spot opportunities for improvement.</p>
+                                </div>
+                            </div>
+
+                              <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-briefcase text-indigo-600"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">Luxurious Wrap</h4>
+                                    <p class="text-gray-500 text-sm">Front Desk Operator | January 2023 - February 2024</p>
+                                    <p class="text-gray-600 mt-2">Managed front desk operations to ensure efficient service and compliance with standards.
+                                        Handled inquiries promptly and maintained a clean, safe, and welcoming lobby environment for guests and staff.</p>
+                                </div>
+                            </div>
+                                <div class="flex">
+                                <div class="mr-4">
+                                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-briefcase text-indigo-600"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium">iStore</h4>
+                                    <p class="text-gray-500 text-sm">Sales Consultant | October 2025 - Current</p>
+                                    <p class="text-gray-600 mt-2">My main job was to sell products to customers and ensure I produce great customer service. I had to be 
+                                        quick on my feet when handling more than 3 customers at a time. I also ensure that the company space was neat and tidy. There where
+                                    instances where i had to provide tech support to customers ensuring there wasnt too much strain for our technicians when it got busy</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Technical Skills</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Programming Languages -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-code text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Programming Languages</h3>
+                    <p class="text-gray-600 text-sm">Python, Java, JavaScript, C++, SQL</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Advanced</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Certified</span>
+                    </div>
+                </div>
+                
+                <!-- Networking -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-globe text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Networking</h3>
+                    <p class="text-gray-600 text-sm">Cisco Packet Tracer, Python for Networking</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Intermediate</span>
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-database text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Databases</h3>
+                    <p class="text-gray-600 text-sm">MongoDB, Oracle DBMS</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Intermediate+</span>
+                    </div>
+                </div>
+                
+                <!-- Cloud & DevOps -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-cloud text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Cloud & DevOps</h3>
+                    <p class="text-gray-600 text-sm">AWS EC2 Instance, Amazon S3, Amazon RDS, Elastic Load Balancing,
+                         AWS IAM, GitHub Actions</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Intermediate</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Certified</span>
+                    </div>
+                </div>
+                
+
+                <!-- Soft Skills -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-users text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Soft Skills</h3>
+                    <p class="text-gray-600 text-sm">Teamwork, Leadership, Communication, Problem-solving</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Expert</span>
+                    </div>
+                </div>
+                
+                <!-- Languages -->
+                <div class="skill-card bg-gray-50 p-6 rounded-xl transition duration-300">
+                    <div class="text-indigo-600 mb-4">
+                        <i class="fas fa-language text-3xl"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Languages</h3>
+                    <p class="text-gray-600 text-sm">English (Fluent), isiZulu (Fluent), Setswana/Sotho (Basic)</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">TOEFL 115</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Featured Projects</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                    <div class="h-48 bg-indigo-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1728044849321-4cbffc50cc1d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg">Cafeteria Order System</h3>
+                            <div class="flex space-x-2">
+                                <a href="https://github.com/DOKTERPHANTOM/CV/blob/main/Eduvos%20Projects/C%2B%2B/CafeteriaOrderSystem.cpp" class="text-gray-400 hover:text-indigo-600"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/DOKTERPHANTOM/CV/blob/main/Eduvos%20Projects/C%2B%2B/CafeteriaOrderSystem.cpp" class="text-gray-400 hover:text-indigo-600"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4">This C++ program simulates a cafeteria ordering and billing system. It uses constants and a struct to store menu items and prices, ensuring the program is easy to maintain and update.
+                                                             The menu is displayed using a separate function, demonstrating modular programming.The program collects customer details, allows the user to select multiple items with input validation,
+                                                              and calculates the total bill dynamically. A discount is automatically applied if the total exceeds a defined threshold, showing the use of conditional logic.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">C++</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Functions and Modular Design</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Arrays and Data Structures</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Formatted Console Output</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                    <div class="h-48 bg-indigo-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=2000&q=80" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg">TCP File Tranfer System</h3>
+                            <div class="flex space-x-2">
+                                <a href="https://github.com/DOKTERPHANTOM/CV/tree/main/Eduvos%20Projects/Python%20/TCP%20File%20Transfer%20System" class="text-gray-400 hover:text-indigo-600"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/DOKTERPHANTOM/CV/tree/main/Eduvos%20Projects/Python%20/TCP%20File%20Transfer%20System" class="text-gray-400 hover:text-indigo-600"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4">Developed a client–server application that transfers files over a TCP connection. Implemented multithreaded server architecture, secure file handling,
+                             and client operations for uploading, downloading, and listing files.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Python Programming</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Socket Programming (TCP/IP)</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Multithreading</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Network Protocol Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                    <div class="h-48 bg-indigo-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg">Bank Account Management System</h3>
+                            <div class="flex space-x-2">
+                                <a href="https://github.com/DOKTERPHANTOM/CV/blob/main/Eduvos%20Projects/C%2B%2B/BankAccountManagementSystem.cpp" class="text-gray-400 hover:text-indigo-600"><i class="fab fa-github"></i></a>
+                                <a href="https://github.com/DOKTERPHANTOM/CV/blob/main/Eduvos%20Projects/C%2B%2B/BankAccountManagementSystem.cpp" class="text-gray-400 hover:text-indigo-600"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4">This C++ program simulates a simple banking system where users can create an account,
+                             deposit and withdraw money, check their balance, and view account details through a menu-driven interface.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">C++ coding</span>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Problem-solving</span>
+ 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="https://github.com/DOKTERPHANTOM/CV/tree/main/Eduvos%20Projects" 
+                class="inline-flex items-center px-6 py-3 border border-indigo-600 text-indigo-600 rounded-md hover:bg-indigo-600 hover:text-white transition">
+                    View All Projects
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="md:flex">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h3 class="text-2xl font-semibold mb-6">Let's Connect</h3>
+                    <p class="text-gray-600 mb-8">I'm actively seeking part-time or full-time opportunities.
+                         Whether you have a job opportunity, want to collaborate, or just want to say hi, I'd love to hear from you!</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <a href="mailto:alex.carter@stanford.edu"
+                                 class="text-gray-600 hover:text-indigo-600">unathi.katlego77@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Phone</h4>
+                                <a href="tel:+16505551234" 
+                                class="text-gray-600 hover:text-indigo-600">+27 682236676</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Location</h4>
+                                <p class="text-gray-600"> Johannesburg | Open to Relocate</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-medium mb-4">Connect with me</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://www.linkedin.com/in/unathi-mthethwa-07a34b2b8/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B027QosSYTmGZwUnKHkU8xw%3D%3D" class="bg-gray-100 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="bg-gray-100 p-3 rounded-full text-gray-700 hover:bg-indigo-600 hover:text-white transition">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+<!-- Contact Form Section -->
+<form id="contact-form" class="bg-gray-50 p-8 rounded-xl shadow-md">
+    <div class="mb-6">
+        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+        <input type="text" id="name" name="from_name" required
+               class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+    </div>
+
+    <div class="mb-6">
+        <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+        <input type="email" id="email" name="reply_to" required
+               class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+    </div>
+
+    <div class="mb-6">
+        <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+        <input type="text" id="subject" name="subject" required
+               class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+    </div>
+
+    <div class="mb-6">
+        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+        <textarea id="message" name="message" rows="5" required
+                  class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+    </div>
+
+    <button type="submit"
+            class="w-full bg-indigo-600 text-white py-3 rounded-md font-medium hover:bg-indigo-700 transition">
+        Send Message
+    </button>
+</form>
+
+<!-- ✅ EmailJS SDK (NEW) -->
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+<script>
+   (function(){
+      emailjs.init("fz8EmFmvN5uACkpEa");  // ✅ Replace with your EmailJS Public Key
+   })();
+
+   // ✅ Updated JS submission handler
+   document.getElementById("contact-form").addEventListener("submit", function(e) {
+       e.preventDefault();
+
+       emailjs.sendForm("service_g7wmd4d", "template_3zfy2a3", this)
+           .then(() => {
+               alert("✅ Thank you! Your message has been sent.");
+               this.reset();
+           }, (error) => {
+               alert("❌ Failed to send message. Please try again later.");
+               console.error("EmailJS Error:", error);
+           });
+   });
+</script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Unathi Mthehtwa</h3>
+                    <p class="text-gray-400 max-w-xs">Aspiring software developer passionate about building innovative solutions and contributing to meaningful projects.</p>
+                </div>
+                
+                <div class="grid grid-cols-2 gap-8 md:grid-cols-3">
+                    <div>
+                        <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                            <li><a href="#skills" class="text-gray-400 hover:text-white transition">Skills</a></li>
+                            <li><a href="#projects" class="text-gray-400 hover:text-white transition">Projects</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Resources</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Resume</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Certifications</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-sm font-semibold uppercase tracking-wider mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2023 Unathi Mthethwa. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form submission handler :unathi.katlego77@gmail.com
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+  <form action="https:service_g7wmd4d" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+        });
+
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle (would need more implementation)
+        document.querySelector('.md\\:hidden button').addEventListener('click', function() {
+            alert('Mobile menu would open here in a full implementation');
+        });
+    </script>
+</body>
+</html>
